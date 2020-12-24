@@ -1,1 +1,6 @@
 Excercise 1.1
+
+CONTAINER ID        IMAGE                          COMMAND                  CREATED             STATUS                      PORTS               NAMES
+9d1fa7551f2c        devopsdockeruh/pull_exercise   "node index.js"          25 minutes ago      Exited (1) 25 minutes ago                       wizardly_bardeen
+ba6bb8a219cb        65887b39c150                   "/docker-entrypoint.…"   2 hours ago         Exited (0) 2 hours ago                          gracious_bhaskara
+64dd5c75483f        65887b39c150                   "/docker-entrypoint.…"   2 hours ago         Exited (0) 2 hours ago                          gracious_sanderson

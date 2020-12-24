@@ -1,1 +1,16 @@
-Excercise 1.1
+Excercise 1.2
+
+caspar@ubuntuserver:~$ sudo docker ps -a
+CONTAINER ID        IMAGE                          COMMAND                  CREATED             STATUS                      PORTS               NAMES
+1986e9824d52        nginx                          "/docker-entrypoint.…"   5 seconds ago       Up 2 seconds                80/tcp              hungry_hawking
+e98bda4993ff        hello-world                    "/hello"                 36 seconds ago      Exited (0) 33 seconds ago                       optimistic_lewin
+9d1fa7551f2c        devopsdockeruh/pull_exercise   "node index.js"          29 minutes ago      Exited (1) 29 minutes ago                       wizardly_bardeen
+ba6bb8a219cb        nginx                          "/docker-entrypoint.…"   2 hours ago         Exited (0) 2 hours ago                          gracious_bhaskara
+64dd5c75483f        nginx                          "/docker-entrypoint.…"   2 hours ago         Exited (0) 2 hours ago                          gracious_sanderson
+
+
+caspar@ubuntuserver:~$ sudo docker image ls
+REPOSITORY                     TAG                 IMAGE ID            CREATED             SIZE
+nginx                          latest              65887b39c150        8 days ago          135MB
+hello-world                    latest              565456b31eec        11 months ago       13kB
+devopsdockeruh/pull_exercise   latest              d9854bc0e13a        21 months ago       75.3MB
